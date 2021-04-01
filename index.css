@@ -4,16 +4,16 @@
 
 .colonne1 {
     float: left;
-    background: #264653;
-    width: 50%;
+    background: #00BFFF;
+    width: 70%;
     height: auto;
 }
 
 .colonne2 {
     float: right;
-    background: #2a9d8f;
-    height: auto;
-    width:50%
+    background: #4682B4;
+    height: 612px;
+    width:30%
 }
 
 h1 {
@@ -36,9 +36,6 @@ h4 {
     margin: 20px;
 }
 
-body{
-    flex-flow: row wrap;
-}
 
 @media screen and (max-width: 640px) {
     .colonne2{
