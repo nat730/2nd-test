@@ -1,0 +1,52 @@
+.entreprise {
+    color: fuchsia;
+}
+
+.colonne1 {
+    float: left;
+    background: #264653;
+    width: 50%;
+    height: auto;
+}
+
+.colonne2 {
+    float: right;
+    background: #2a9d8f;
+    height: auto;
+    width:50%
+}
+
+h1 {
+    text-align: center;
+}
+
+.espace {
+    margin: 20px;
+}
+
+h2 {
+    margin: 20px;
+}
+
+h3 {
+    margin: 20px;
+}
+
+h4 {
+    margin: 20px;
+}
+
+body{
+    flex-flow: row wrap;
+}
+
+@media screen and (max-width: 640px) {
+    .colonne2{
+    float: none;
+    width: 100%;
+    }
+    .colonne1{
+        float: none;
+        width: 100%;
+    }
+  }
